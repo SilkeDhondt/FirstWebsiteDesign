@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: amaranth;
+	src: url(lettertypes/Amaranth-Regular.otf);
+}
+* { font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: amaranth, Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+}
+html {
+	background-image: url(afbeelding/Background.jpg); /*http://bilder.4ever.eu/bauwerke/historisch/tokyo-tower-218641*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.waardig .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+	display: inline;
+}
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	background-color: transparent;
+}
+nav {
+	width: 100%;
+}
+nav ul{overflow: hidden;}
+nav ul li {font-size: 2.5rem;
+	border-right: solid 1px #03465a;
+	list-style: none;
+	width: 20%;
+	font-family: amaranth;
+	font-weight: bold;
+}
+nav ul li:nth-child(2) a {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+nav ul li a {
+	display: block;
+	height: 40px;
+	text-align: center;
+	color:black;
+	text-decoration: none;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+nav ul li a:hover {
+	background-color: rgba(9, 13, 251, 0.5);
+}
+nav ul li:last-child {
+	border-right: none;
+}
+ul {margin-bottom: 0;
+	border-radius: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	background: linear-gradient(#a2def1, #5592a5, #1e6074)
+}
+@media screen and (max-width:850px){nav ul li{box-sizing: border-box; width:100%; padding:1px;
+	}}
+h1 {
+	font-family: amaranth;
+	font-weight: bold;
+}
+.home article p {
+	width: 50%;
+	font-size: 20px;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+}
+.home section h1 {
+	text-align: center;
+}
+.home section div {
+	width: 50%;
+	margin-left: 25%;
+}
+.home section {
+	background-color: rgba(2, 27, 81, 0.87);
+	padding-top: 20px;
+	color: white;
+}
+.home section article {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.home section div iframe {
+	width: 100%;
+	margin-bottom: 255px;
+}
+.waardig section {
+	color: white;
+}
+.waardig section h1 {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.waardig section {
+	background-color: rgba(2, 27, 81, 0.87);
+	padding-top: 10px;
+}
+.waardig section article {font-size: 2.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.waardig section > article > a > img {
+	width: 75%;
+	height: auto;
+}
+.waardig section article p {
+	text-align: justify;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.waardig section article:last-child {
+	padding-bottom: 20px; margin-bottom: 0;
+}
+
+.album section {
+	background-color: rgba(2, 27, 81, 0.87);
+	padding-top: 10px;
+}
+.album section h1 {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: white;
+}
+.album article {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	overflow: auto;
+	height: auto;
+	display: block;
+}
+.album section article div::after {
+	clear: both;
+}
+.album section article div {
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+.album section article div a {
+	width: 45%;
+	height: 350px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	padding: 0;
+	font-size: 0;
+	float: left;
+}
+.album section article div a img {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	width: 100%;
+	height: 70%;
+	object-fit: cover;
+	text-align: center;
+}
+.video section {
+	background-color: rgba(2, 27, 81, 0.87);
+	padding-top: 50px;
+}
+.video section article {
+	text-align: center;
+}
+.video section, h1 {
+	text-align: center;
+	margin-bottom: 30px;
+	color: white;
+}
+.video section article iframe {
+	display: inline-block;
+	width: 50%;
+	margin-bottom: 10px;
+}
+.eten section {
+	background-color: rgba(2, 27, 81, 0.87);
+	padding-top: 10px;
+}
+.eten section h1 {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: white;
+}
+.eten section article {
+	color: white;
+	text-align: center;
+}
+.eten section article p {
+	margin-bottom: 10px;font-size: 1.5rem;
+}
+.eten section article h2 {
+	margin-top: 20px;
+}
+.eten section article p:last-child{padding-bottom:20px;margin-bottom: 0;}
